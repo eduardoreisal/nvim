@@ -60,6 +60,10 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
+-- Move highlighted
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
 -- Plugins --
 -- ToggleTerm
 keymap("n", "<leader>\\", ":ToggleTerm<CR>")
