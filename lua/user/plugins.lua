@@ -180,4 +180,14 @@ return require('packer').startup(function(use)
     }
   }
 
+  -- Mind Nvim
+  use {
+    'phaazon/mind.nvim',
+    branch = 'v2.2',
+    requires = { 'nvim-lua/plenary.nvim' },
+    config = function()
+      require'mind'.setup()
+    end
+  }
+
 end)
