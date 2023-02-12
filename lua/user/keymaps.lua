@@ -80,5 +80,4 @@ keymap("n", "<leader>fn", ":TodoQuickFix <CR>", opts)
 keymap("n", "<leader>fw", ":Telescope notify <CR>", opts)
 
 -- Git
-keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
-
+keymap("n", "<leader>g", ":Git <CR>")
