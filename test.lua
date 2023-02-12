@@ -10,3 +10,9 @@
 --
 -- this is a { test }
 -- "This is another test"
+
+local test = 1
+local test = 2
+local test = 3
+
+

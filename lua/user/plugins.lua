@@ -144,4 +144,14 @@ return require('packer').startup(function(use)
   -- Indent blank line
   use { "lukas-reineke/indent-blankline.nvim"}
 
+  -- Tagbar
+  use { "preservim/tagbar" }
+
+  -- Iluminatea
+  use { "RRethy/vim-illuminate" }
+
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+  end}
+
 end)
