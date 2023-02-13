@@ -1,5 +1,5 @@
 local ls = require('luasnip')
-require('user.snips')
+require('user.snips.snips')
 
 local M = {}
 

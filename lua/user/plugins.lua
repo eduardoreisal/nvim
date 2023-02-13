@@ -190,4 +190,7 @@ return require('packer').startup(function(use)
     end
   }
 
+  -- Ranger
+  use { 'kevinhwang91/rnvimr' }
+
 end)
