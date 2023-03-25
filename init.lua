@@ -1,6 +1,6 @@
 require 'user.colorscheme'
-require 'user.illuminate'
 require 'user.plugins'
+require 'user.illuminate'
 require 'user.projects'
 require 'user.keymaps'
 require 'user.options'
