@@ -159,6 +159,8 @@ return require('packer').startup(function(use)
 
   use {'tpope/vim-fugitive'}
 
+  use { "ggandor/leap.nvim" }
+
   -- Lsp config
   use {
     'VonHeikemen/lsp-zero.nvim',
